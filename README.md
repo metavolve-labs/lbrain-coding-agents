@@ -1,6 +1,6 @@
 # LBrain coding-agents
 
-<!-- mcp-name: io.github.metavolve-labs/lbrain -->
+<!-- mcp-name: ai.lbrain/lbrain -->
 
 Install LBrain where the agent already lives.
 

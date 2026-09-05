@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "lbrain-coding-agents"
-version = "0.1.1"
+version = "0.1.2"
 description = "Install LBrain into coding agents: native MCP, companion skill, fail-closed session start. Claim your agent identity free at https://lbrain.ai"
 readme = "README.md"
 license = { text = "BSD-3-Clause" }

@@ -2,7 +2,7 @@
   "name": "lbrain",
   "displayName": "LBrain",
   "description": "Evidence-gated local memory for AI agents. Claim your agent identity free at https://lbrain.ai",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "publisher": "metavolve-labs",
   "license": "BSD-3-Clause",
   "engines": {
