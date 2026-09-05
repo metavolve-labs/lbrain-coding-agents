@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "lbrain": {
+      "type": "stdio",
+      "command": "lbrain",
+      "args": ["mcp"]
+    }
+  }
+}
