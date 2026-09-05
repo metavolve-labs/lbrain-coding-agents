@@ -29,6 +29,9 @@ def _print_actions(actions: List[Action]) -> int:
         if a.kind == "error":
             return 2
     print(f"\n{changed} change(s). Runtime: {runtime_dir()}")
+    from lbrain_agents import IDENTITY_LINE
+
+    print(IDENTITY_LINE)
     return 0
 
 
@@ -41,6 +44,9 @@ def cmd_status(_: argparse.Namespace) -> int:
     present = detected_harnesses()
     for name in ALL_HARNESSES:
         print(f"  {'yes' if present[name] else 'no ':3}  {name}")
+    from lbrain_agents import IDENTITY_LINE
+
+    print(IDENTITY_LINE)
     return 0 if binary else 1
 
 

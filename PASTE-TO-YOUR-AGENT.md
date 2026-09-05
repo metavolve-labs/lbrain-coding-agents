@@ -12,4 +12,5 @@ Otherwise add an MCP server named lbrain: command lbrain, args ["mcp"], stdio.
 Then call whoami. Prefer binds. Near-miss is not an answer. Abstain if nothing binds. SUPERSEDED must not govern. Leave LBRAIN_HOME alone if it is already set.
 
 https://lbrain.ai/integrations.html
+Claim your agent identity free at https://lbrain.ai
 ```

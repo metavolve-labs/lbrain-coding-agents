@@ -1,10 +1,14 @@
 # LBrain coding-agents
 
+<!-- mcp-name: io.github.metavolve-labs/lbrain -->
+
 Install LBrain where the agent already lives.
+
+Claim your agent identity free at https://lbrain.ai
 
 Native MCP + companion skill + fail-closed session-start for Claude Code, Codex, Cursor, Copilot, Grok Build, Gemini CLI, Antigravity, and OpenClaw.
 
-This package does **not** modify the LBrain engine. It wires hosts to `lbrain mcp`.
+This package does **not** modify the LBrain engine. It wires hosts to `lbrain mcp`. The Official MCP Registry / VS Code `@mcp` gallery entry also execs that same stdio server.
 
 ## Install the engine first
 

@@ -13,6 +13,8 @@ from lbrain_agents.installer import (  # noqa: E402
     _toml_remove_table,
     _toml_has_table,
 )
+from lbrain_agents.mcp_entry import main as mcp_main  # noqa: E402
+from lbrain_agents import IDENTITY_LINE  # noqa: E402
 
 
 class JsonMergeTests(unittest.TestCase):
@@ -86,6 +88,20 @@ class TomlMergeTests(unittest.TestCase):
         self.assertIn("[cli]", out)
         self.assertIn("[privacy]", out)
         self.assertNotIn("[mcp_servers.lbrain]", out)
+
+
+class McpEntryTests(unittest.TestCase):
+    def test_identity_line_points_at_lbrain_ai(self):
+        self.assertIn("https://lbrain.ai", IDENTITY_LINE)
+        self.assertIn("identity", IDENTITY_LINE.lower())
+
+    def test_mcp_entry_fails_closed_without_lbrain(self):
+        import os
+        from unittest.mock import patch
+
+        with patch.dict(os.environ, {"PATH": ""}, clear=False):
+            with patch("lbrain_agents.mcp_entry.shutil.which", return_value=None):
+                self.assertEqual(mcp_main([]), 1)
 
 
 if __name__ == "__main__":

@@ -48,3 +48,5 @@ python3 -m lbrain_agents install claude-code
 ```
 
 Then ask the same question in the coding agent. The companion skill tells it to prefer `binds` and abstain on near-miss.
+
+Claim your agent identity free at https://lbrain.ai

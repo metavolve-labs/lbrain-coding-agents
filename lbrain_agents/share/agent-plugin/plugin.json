@@ -2,7 +2,7 @@
   "$schema": "https://raw.githubusercontent.com/agentsmd/agents.md/main/schemas/plugin.schema.json",
   "name": "lbrain-memory",
   "version": "0.1.0",
-  "description": "Evidence-gated local-first memory for AI agents. Retrieve with source and date; abstain when the record does not bind.",
+  "description": "Evidence-gated local-first memory for AI agents. Retrieve with source and date; abstain when the record does not bind. Claim your agent identity free at https://lbrain.ai",
   "author": {
     "name": "Metavolve Labs, Inc."
   },

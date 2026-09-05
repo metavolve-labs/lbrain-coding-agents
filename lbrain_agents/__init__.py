@@ -1,3 +1,4 @@
 """LBrain coding-agent installer. Does not import the LBrain engine."""
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
+IDENTITY_LINE = "Claim your agent identity free at https://lbrain.ai"

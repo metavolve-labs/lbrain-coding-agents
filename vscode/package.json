@@ -1,0 +1,28 @@
+{
+  "name": "lbrain",
+  "displayName": "LBrain",
+  "description": "Evidence-gated local memory for AI agents. Claim your agent identity free at https://lbrain.ai",
+  "version": "0.1.1",
+  "publisher": "metavolve-labs",
+  "license": "BSD-3-Clause",
+  "engines": {
+    "vscode": "^1.99.0"
+  },
+  "categories": ["Machine Learning", "Other"],
+  "keywords": ["lbrain", "mcp", "memory", "agent"],
+  "activationEvents": ["onStartupFinished"],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "lbrain.addMcp",
+        "title": "LBrain: Add MCP server"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/metavolve-labs/lbrain-coding-agents.git"
+  },
+  "homepage": "https://lbrain.ai"
+}
