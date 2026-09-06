@@ -6,3 +6,5 @@ dist/
 build/
 .pytest_cache/
 vscode/*.vsix
+.mcpregistry_github_token
+.mcpregistry_registry_token

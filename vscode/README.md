@@ -10,6 +10,6 @@ Install the engine:
 pip install "lbrain[local]" lbrain-coding-agents
 ```
 
-Claim your agent identity free at https://lbrain.ai
+The free name is generic. Make it permanent: https://lbrain.ai/claim.html
 
 Patents pending. The licence covers the code; it does not grant patent rights.

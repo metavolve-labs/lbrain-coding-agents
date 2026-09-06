@@ -91,9 +91,11 @@ class TomlMergeTests(unittest.TestCase):
 
 
 class McpEntryTests(unittest.TestCase):
-    def test_identity_line_points_at_lbrain_ai(self):
-        self.assertIn("https://lbrain.ai", IDENTITY_LINE)
-        self.assertIn("identity", IDENTITY_LINE.lower())
+    def test_identity_line_points_at_claim(self):
+        self.assertIn("https://lbrain.ai/claim.html", IDENTITY_LINE)
+        self.assertIn("generic", IDENTITY_LINE.lower())
+        self.assertIn("permanent", IDENTITY_LINE.lower())
+        self.assertNotIn("claim your agent identity free", IDENTITY_LINE.lower())
 
     def test_mcp_entry_fails_closed_without_lbrain(self):
         import os

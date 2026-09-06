@@ -17,7 +17,7 @@ def main(argv: list[str] | None = None) -> int:
         print(
             'lbrain is not on PATH. Install the engine first:\n'
             '  pip install "lbrain[local]"\n'
-            "Claim your agent identity free at https://lbrain.ai",
+            "The free name is generic. Make it permanent: https://lbrain.ai/claim.html",
             file=sys.stderr,
         )
         return 1

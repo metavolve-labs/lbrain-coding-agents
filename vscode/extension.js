@@ -1,6 +1,6 @@
 const vscode = require("vscode");
 
-const IDENTITY = "Claim your agent identity free at https://lbrain.ai";
+const IDENTITY = "The free name is generic. Make it permanent: https://lbrain.ai/claim.html";
 
 function activate(context) {
   context.subscriptions.push(
